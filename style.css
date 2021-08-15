@@ -1,0 +1,82 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header{
+    height: 4rem;
+    width: 100%;
+    
+}
+
+header p {
+    font-size: 1.9rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-family: 'Style Script', cursive;
+    
+    
+}
+
+h1{
+    margin-top: 4.8rem;
+    margin-bottom: 1rem;
+}
+.container{
+    height:45vh;
+    margin-top: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cell{
+background-color:#482ff7 ;
+width: 120px;
+height: 120px;
+border-radius: 10px;
+margin: 0rem 0.2rem 0.4rem;
+padding: 1rem;
+text-align: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.3rem;
+font-weight: 600;
+cursor: pointer;
+color: #faee1c;
+}
+
+.hypo{
+    background-color: #faee1c;
+    color: #482ff7;
+}
+
+.area{
+    background-color: #fccde2;
+    color: #ba53de;
+}
+
+.quiz{
+    background-color: #ba53de;
+    color:#fccde2 ;
+}

@@ -1,0 +1,38 @@
+*{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #fccde2;
+}
+
+
+label{
+    margin: 1rem;
+}
+
+button{
+    height: 1.5rem;
+    width: 4rem;
+    background-color: #fccde2;
+    border-radius: 6px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.output{
+    height: 12rem;
+    width: 20rem;
+    background-color: #fccde2;
+    margin-top: 1.7rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
