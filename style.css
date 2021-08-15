@@ -15,6 +15,8 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content: space-between;
     height: 4rem;
     width: 100%;
     
@@ -79,4 +81,37 @@ color: #faee1c;
 .quiz{
     background-color: #ba53de;
     color:#fccde2 ;
+}
+
+.foot1{
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+}
+.instagram{
+    height: 3rem;
+    margin-top: 10px;
+    margin-left: 1rem;
+}
+
+
+    .icon{
+        height: 2.5rem;
+        margin-bottom: 1rem;
+        margin-top: 15px;
+        
+        margin-right: 1rem;
+        
+        
+        
+    } 
+
+
+    .github{
+        margin-left: 1rem;
+    }
+
+.foot2{
+    margin-top: 1rem;
+    font-family: 'Acme', sans-serif;
 }
