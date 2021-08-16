@@ -14,37 +14,49 @@
 <body>
     <h1>Quiz</h1>
     <h2>Let's see hoe much you know about Trianglesss</h2>
-    <form action="" class="form">
+    <form class="form">
         <div class="container">
+            
             <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°? <br>
                 
                 <input type="radio"  class="input" name="question1" value="45°">45°
                 <input type="radio"  class="input"name='question1' value='90°'>90°
                 <input type="radio"  class="input"name='question1' value="60°">60°
             </p>
-            <p>2. If a triangle has an angle of 90 degrees, what is it called? <br>
+            
+            
+             <p>2. If a triangle has an angle less than 90 degrees, what is it called? <br>
                 <input type="radio" class="input" name="question2" value="obtuse">obtuse
                 <input type="radio" class="input" name='question2' value='acute '>acute 
-                <input type="radio" class="input" name='question2' value=" right angled">right angled
-            </p>
+                <input type="radio" class="input" name='question2' value=" right-angled">right-angled
+            </p> 
+            
+            
             <p>3. What is it called when three or more lines intersect at the same point?<br>
                 <input type="radio" class="input" name="question3" value="Concurrent">Concurrent
                 <input type="radio" class="input" name='question3' value='Equilateral'>Equilateral 
                 <input type="radio" class="input" name='question3' value="Conspicuous">Conspicuous
             </p>
+            
+            
             <p>4. What is the name of the segment that joins the midpoints of the sides of a triangle?<br>
                 <input type="radio" class="input" name="question4" value="Median">Median
                 <input type="radio" class="input" name='question4' value='Midsegment'>Midsegment 
                 <input type="radio" class="input" name='question4' value="Vertex">Vertex
             </p>
+            
             <p>5. Which triangle center is the balance point of the triangle?<br>
                 <input type="radio" class="input" name="question5" value="Orthocenter">Orthocenter
                 <input type="radio" class="input" name='question5' value='Incenter'> Incenter
                 <input type="radio" class="input" name='question5' value="Centroid">Centroid
             </p>
-            <button>Submit</button>
-            <div class="output"></div>
+            
+            
+            
         </div>
     </form>
+    <button id="button">Submit</button>
+    <div class="output"></div>
+<script src="quiz.js"></script>
 </body>
 </html>

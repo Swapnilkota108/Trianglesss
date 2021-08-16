@@ -35,7 +35,9 @@ button{
     border-radius: 7px;
     border: 2px solid black;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    margin-left: 10.2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
 
 }
 
@@ -46,6 +48,10 @@ button{
     border: 2px solid black;
     border-radius: 7px;
     margin-top: 1rem;
-    margin-left: 6.7rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
