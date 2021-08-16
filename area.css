@@ -20,7 +20,7 @@ label{
 
 button{
     height: 1.5rem;
-    width: 4rem;
+    width: 4.5rem;
     background-color: #fccde2;
     border-radius: 6px;
     border: 2px solid black;
@@ -28,8 +28,12 @@ button{
 }
 
 .output{
-    height: 12rem;
-    width: 20rem;
+    height: 7rem;
+    width: 22rem;
+    padding: 10px;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
     background-color: #fccde2;
     margin-top: 1.7rem;
     border-radius: 1rem;
